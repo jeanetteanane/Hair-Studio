@@ -1,0 +1,203 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+.list{
+  height: 20px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.shop-name{
+  font-family: 'Pacifico';
+  font-weight: bold;
+  font-size:large;
+  margin-right: 280px;
+}
+
+.main{
+  background-image: url("https://images.unsplash.com/photo-1564141696939-9eb6e957ccfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aGFpcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+} 
+
+ .title{
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 3px;
+  margin-left: 20px;
+} 
+
+.main-button {
+  padding: 20px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 90px;
+}
+
+.fa-solid{
+  color: rgb(223, 121, 121);
+}
+
+
+.box{
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.box button{
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.discount {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+.socials{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.about img{
+  height: 350px;
+  margin-left: 70px;
+}
+
+.about button{
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.hairdressers{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.hairdressers img{
+  height: 300px;
+}
+
+.hairdressers button{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.hair{
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  margin: 50px auto 0 400px;
+  background-image: url("https://c.ndtvimg.com/2022-01/883nv0oo_650_625x300_28_January_22.jpg");
+  background-repeat: no-repeat;
+}
+
+.hair p{
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.hair button{
+  height: 40px;
+  width: 90px;
+  margin-top: 90px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+.lookbook h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.lookbook img{
+ aspect-ratio: 3/3;
+  width:20%;
+  object-fit: cover;
+  margin: 7px 2%;
+}
+
+footer { 
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.bottom-about{
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.bottom-contact{
+  flex-grow: 1;
+  flex-basis: 100%;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
